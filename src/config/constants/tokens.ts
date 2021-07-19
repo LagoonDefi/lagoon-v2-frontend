@@ -3,7 +3,7 @@ import { ChainId, Token } from '@pancakeswap/sdk'
 export const CAKE: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    '0xa8CAc23Cf6035F6584Fd60d2b9Cd3aFF393c9efa',
     18,
     'CAKE',
     'PancakeSwap Token',
@@ -67,7 +67,7 @@ const tokens = {
   cake: {
     symbol: 'CAKE',
     address: {
-      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+      56: '0xa8CAc23Cf6035F6584Fd60d2b9Cd3aFF393c9efa',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
     },
     decimals: 18,
@@ -733,7 +733,7 @@ const tokens = {
   syrup: {
     symbol: 'SYRUP',
     address: {
-      56: '0x009cF7bC57584b7998236eff51b98A168DceA9B0',
+      56: '0x460764aDf69b348D232a8C882dF5036634E8A7e8',
       97: '0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9',
     },
     decimals: 18,
